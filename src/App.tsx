@@ -1,10 +1,13 @@
-import { Button } from "./components/ui/button";
+import ChatLayout from "./chat/layout/ChatLayout";
+import ChatPage from "./chat/pages/ChatPage";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hola Mundo</h1>
-      <Button variant="default">Click me</Button>
+      {/* <AuthLayout /> */}
+      <ChatLayout>
+        <ChatPage />
+      </ChatLayout>
     </>
   );
 }
